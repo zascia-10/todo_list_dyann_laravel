@@ -34,4 +34,11 @@ class TodoListController extends Controller
     {
        return view('todo.form');
     }
-}
+        public function hapus($id)
+       {
+        $todo =TodoList::findOrFail($id);
+        $todo ->delete();
+        return redirect('/todo');
+       }
+    }
+
