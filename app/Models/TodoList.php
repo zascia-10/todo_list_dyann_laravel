@@ -8,7 +8,7 @@ class TodoList extends Model
 
 {
     //Tambahkan di sini
-    protected $filelable =[
+    protected $fillable =[
         'nama',
         'tugas',
         'deadline',

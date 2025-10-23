@@ -7,3 +7,5 @@ Route::get('todo', function () {
     return view('TodoListController');
 });
 Route::get('/todo', [TodoListController::class, 'index']);
+Route::post('/todo/simpan', [TodoListController::class, 'simpan']);
+Route::get('/todo/tambah', [TodoListController::class, 'tambah']);

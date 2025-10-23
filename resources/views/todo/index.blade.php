@@ -7,10 +7,11 @@
 </head>
 <body>
      <h2>Daftar Tugas</h2>
+     <a href="/todo/tambah">Tambah</a>
     <!--Tambah tombol/link-->
     <table border="1" cellpadding="6" cellspacing="0">
         <tr>
-            <th>No</th>
+            <th>No </th>
             <th>Nama</th>
             <th>Tugas</th>
             <th>Deadline</th>
