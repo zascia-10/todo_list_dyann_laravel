@@ -7,7 +7,13 @@
     <title>Edit Todo List</title>
 </head>
 <body>
-    <h1>Form Edit Tugas</h1>
+    
+</body>
+</html>
+@extends('layout.app')
+
+@section('content')
+<h1>Form Edit Tugas</h1>
         <form method="post" action="/update/{{$todo->id}}">
             @csrf
             @method('PUT')
@@ -18,5 +24,5 @@
             
             <button type="submit">Simpan</button>
     </form>
-</body>
-</html>
+    
+@endsection

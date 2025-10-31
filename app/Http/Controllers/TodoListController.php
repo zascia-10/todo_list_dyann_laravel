@@ -49,7 +49,7 @@ class TodoListController extends Controller
             'todo' =>$todo
 
         ]);
-    }
+    } 
     public function update(Request $request,$id)
     {
         $request->validate([
